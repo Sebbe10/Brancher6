@@ -2,18 +2,29 @@ li {
   display: flex;
   position: relative;
   list-style: none;
-  color: green;
+  color: black;
   font-size: 50px;
+  justify-content: center;
   background-color: beige;
-  width: 100px;
+  width: 30%;
+  margin: auto;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
 }
 
 span.close {
   color: white;
   cursor: pointer;
+  font-size: 60px;
 }
 
 span.close:hover {
   color: red;
+  font-size: 60px;
   cursor: pointer;
 }
