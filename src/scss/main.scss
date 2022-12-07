@@ -1,0 +1,19 @@
+li {
+  display: flex;
+  position: relative;
+  list-style: none;
+  color: green;
+  font-size: 50px;
+  background-color: beige;
+  width: 100px;
+}
+
+span.close {
+  color: white;
+  cursor: pointer;
+}
+
+span.close:hover {
+  color: red;
+  cursor: pointer;
+}
