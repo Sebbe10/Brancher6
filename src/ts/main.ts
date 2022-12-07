@@ -9,17 +9,11 @@ let myul = new Person("Hej");
 
 let myul1 = new Person("Tja");
 
-let myu3 = new Person("Va");
-
-let myul5 = new Person("Ha");
-
-let myul6 = new Person("Hejhej");
-
 let names = 0;
 
 let ulTag = document.getElementById("myUL");
 
-let myuls = ["Hej", "Tja", "Va", "Ha", "Hejhej"];
+let myuls = ["Hej", "Tja"];
 
 for (let i = 0; i < myuls.length; i++) {
   console.log(myuls);
