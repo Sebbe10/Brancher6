@@ -7,13 +7,11 @@ class Person {
 
 let myul = new Person("Hej");
 
-let myul2 = new Person("Tja");
-
 let names = 0;
 
 let ulTag = document.getElementById("myUL");
 
-let myuls = ["Hej", "Tja"];
+let myuls = ["Hej"];
 
 for (let i = 0; i < myuls.length; i++) {
   console.log(myuls);
